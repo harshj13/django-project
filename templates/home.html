@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Home | Student Portal{% endblock %}
+
+{% block content %}
+<div class="card shadow-sm">
+    <div class="card-body p-4">
+        {% if user.is_authenticated %}
+            <h2 class="card-title">Welcome, {{ user.username }}!</h2>
+            <p class="card-text text-muted">You are logged in successfully.</p>
+        {% else %}
+            <h2 class="card-title">Welcome to Student Portal</h2>
+            <p class="card-text text-muted">Please login or register to continue.</p>
+            <a href="{% url 'login' %}" class="btn btn-primary me-2">Login</a>
+            <a href="{% url 'register' %}" class="btn btn-outline-primary">Register</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
