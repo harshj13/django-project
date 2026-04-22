@@ -56,10 +56,20 @@ branch 'main' set up to track 'origin/main'.
 ```
 
 ### 3) Source Code Output Photo / Screenshot
-- Add your screenshots here before final submission:
-  - Home page screenshot
-  - Register page screenshot
-  - Login page screenshot
-  - Logged-in page screenshot
-  - GitHub repository page screenshot
+Save your screenshots inside a `screenshots/` folder in this project and update file names if needed.
+
+#### Home Page
+![Home Page](screenshots/home-page.png)
+
+#### Register Page
+![Register Page](screenshots/register-page.png)
+
+#### Login Page
+![Login Page](screenshots/login-page.png)
+
+#### Logged-in Page
+![Logged-in Page](screenshots/logged-in-page.png)
+
+#### GitHub Repository Page
+![GitHub Repository](screenshots/github-repo-page.png)
 
